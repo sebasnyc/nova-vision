@@ -1,0 +1,2 @@
+/* Black is the transparent color on the additive display. Never use a transparent webview canvas. */
+html,body{background:#000!important}.console{background:#000!important}.reference-item{display:block;width:100%;text-align:left;font-family:'Space Grotesk',sans-serif;cursor:pointer}.reference-item:focus{outline:2px solid #ffc24b;outline-offset:2px}.launch{cursor:pointer}
