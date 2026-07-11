@@ -1,0 +1,3 @@
+/* Last-pass physical wing roots and compact telemetry callouts. */
+.dragon .wing{z-index:0;top:34px;width:50px;height:43px}.dragon .wing:before{content:'';position:absolute;z-index:-1;right:-14px;top:13px;width:23px;height:17px;background:#62c65d;border:2px solid #d7ffa2;border-radius:80% 30% 40% 80%;box-shadow:inset -4px -1px #3f9347}.dragon .body{z-index:2}.dragon .tail{z-index:1}
+.hero:before,.hero:after{position:absolute;z-index:3;white-space:pre;pointer-events:none;font:7px/1.65 'DM Mono',monospace;letter-spacing:.08em;color:#e7a8ff;opacity:.78}.hero:before{content:'◉ SECTOR 25  [49]\A◉ SECTOR 32  [33]\A\A▰▰▰▰  LINK';left:2px;top:27px}.hero:after{content:'BLOCK 04 [33]\A███████\A\A◌ 3.3659\A  8.8096';right:4px;top:31px;text-align:right;color:#fb8fe8}
