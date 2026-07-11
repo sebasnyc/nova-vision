@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000"><title>Nova Vision</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="purple-hud.css"><link rel="stylesheet" href="glasses-display.css"><link rel="stylesheet" href="nova-workbench.css"><link rel="stylesheet" href="transparent-display.css"><link rel="stylesheet" href="aesthetic-pass.css"><link rel="stylesheet" href="navigation-fix.css"><link rel="stylesheet" href="original-field-system.css">
+</head>
+<body>
+  <main class="console" aria-label="Nova Vision field console">
+    <header><div class="brand"><i></i>NOVA / VISION</div><div class="link"><b></b>DISPLAY LINK</div></header>
+    <section class="telemetry"><span id="clock">--:--</span><span>◈ FIELD MODE</span><span>◌ 37°</span><span class="battery">▰ 84</span></section>
+    <section class="hero" id="homePanel">
+      <div class="reticle"><div></div><span>OPTICS READY</span></div>
+      <div class="signal"><em>SCN</em><strong>ENGINEERING<br>FIELD MANUAL</strong><small>IDENTIFY · REFERENCE · BUILD</small></div>
+      <p>Browse essential hardware profiles, operating limits, and practical uses.</p><button class="focusable launch" id="referenceLaunch" autofocus>OPEN REFERENCE</button>
+    </section>
+    <section class="catalog hidden" id="catalogPanel" aria-label="Hardware catalogue">
+      <div class="panel-title"><span>CATALOGUE</span><small id="index">01 / 16</small></div>
+      <div class="record" id="record"></div><div class="meter"><span>CONFIDENCE</span><i><b></b></i><small>REFERENCE MATCH</small></div>
+    </section>
+    <section class="catalog hidden" id="referencePanel" aria-label="Engineering reference"><div class="panel-title"><span id="refTitle">ENGINEERING REFERENCE</span><small id="refIndex">01 / 03</small></div><div class="reference-list" id="referenceList"></div><div class="reference-detail" id="referenceDetail"></div></section>
+    <footer><span id="hint">↑ ↓ BROWSE</span><span>◉ SELECT</span><span>← HOME</span></footer><div class="toast" id="toast" role="status"></div>
+  </main><script src="nova-reference.js"></script><script>document.getElementById('referenceLaunch').addEventListener('click',()=>refs())</script>
+</body></html>
