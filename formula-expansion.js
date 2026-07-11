@@ -1,0 +1,25 @@
+/* Broad undergraduate formula compendium; cards are added to the swipe deck. */
+cheat.push(
+['Algebra & logs','Rules used throughout engineering calculations.','aᵐaⁿ=aᵐ⁺ⁿ · (aᵐ)ⁿ=aᵐⁿ<br>log(ab)=log a+log b · ln(eˣ)=x'],
+['Trigonometry','Core identities and relationships.','sin²θ+cos²θ=1 · tanθ=sinθ/cosθ<br>sin(A±B)=sinAcosB±cosAsinB'],
+['Derivatives','Common single-variable derivatives.','d(sin x)/dx=cos x · d(cos x)/dx=−sin x<br>d(eˣ)/dx=eˣ · d(lnx)/dx=1/x'],
+['Integration','Core antiderivatives and methods.','∫eˣdx=eˣ+C · ∫sinx dx=−cosx+C<br>∫u dv=uv−∫v du'],
+['Series & transforms','Approximation and frequency-domain tools.','eˣ=Σxⁿ/n! · sinx=Σ(−1)ⁿx²ⁿ⁺¹/(2n+1)!<br>L{f′}=sF(s)−f(0)'],
+['Vectors','Magnitude, dot, and cross products.','|a|=√(ax²+ay²+az²) · a·b=|a||b|cosθ<br>|a×b|=|a||b|sinθ'],
+['Kinematics','Constant-acceleration motion.','v=v₀+at · x=x₀+v₀t+½at²<br>v²=v₀²+2a(x−x₀)'],
+['Momentum & rotation','Linear and angular dynamics.','p=mv · J=FΔt=Δp · τ=r×F<br>τ=Iα · L=Iω'],
+['Work, energy & power','Mechanical energy relationships.','W=∫F·dr · Ek=½mv² · Ep=mgh<br>P=dW/dt=F·v'],
+['Fluids','Pressure, buoyancy, and flow.','P=F/A · P=P₀+ρgh · Fb=ρVg<br>A₁v₁=A₂v₂'],
+['Waves & optics','Wave, lens, and photon relations.','v=fλ · 1/f=1/do+1/di · E=hf=hc/λ'],
+['Thermal physics','Heat, gases, and thermodynamics.','Q=mcΔT · PV=nRT · ΔU=Q−W<br>η=Wout/Qin'],
+['Electrostatics','Charge, fields, and capacitance.','F=kq₁q₂/r² · E=F/q · V=kq/r<br>C=Q/V · Uc=½CV²'],
+['Magnetism & induction','Fields, force, and Faraday’s law.','F=qv×B · F=IL×B · Φ=BAcosθ<br>ε=−N dΦ/dt'],
+['Current & materials','Charge transport and resistivity.','I=dq/dt · R=ρL/A · J=I/A<br>σ=1/ρ'],
+['Network theorems','Useful circuit reduction rules.','Vth=Voc · Rth: deactivate sources<br>Maximum power: RL=Rth'],
+['AC phasors','Complex representation of sinusoidal circuits.','V=V∠θ · ZR=R · ZL=jωL · ZC=1/(jωC)<br>Y=1/Z'],
+['Resonance & Q','Tuned RLC circuits.','f₀=1/(2π√LC) · Q=ω₀L/R (series)<br>BW=f₀/Q'],
+['Bode & decibels','Gain and cutoff conventions.','dB(V)=20log₁₀(V₂/V₁)<br>dB(P)=10log₁₀(P₂/P₁)'],
+['Semiconductors','Junction and device relations.','I=Is(e^(Vd/nVt)−1) · Vt≈25.85mV at 300K<br>P=VI'],
+['Digital systems','Number systems and memory basics.','N-bit unsigned range: 0…2ᴺ−1<br>fmax≈1/(2tpd)'],
+['Signals & information','Sampling and signal power.','fs>2fmax · xRMS=√(mean(x²))<br>SNRdB=10log₁₀(Ps/Pn)']
+);
